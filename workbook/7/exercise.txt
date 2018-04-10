@@ -1,0 +1,4 @@
+[Group activity in teams of 4] 
+
+Given the following system (./system.png) 
+what strategies would you use to achieve satisfactory code coverage? discuss

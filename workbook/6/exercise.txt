@@ -1,0 +1,11 @@
+User story 
+As a personal assistant to the CEO I want an email template functionality so that 
+I can send all sorts of mass/personalized emails with just a couple of mouse-clicks. 
+
+ Requirement to sub tasks 
+
+1	The system replaces variable placeholders like ${firstname} and ${lastname} from a template with values provided at runtime.
+2	The system attempts to send a template with some variables not populated will raise an error.
+3	The system silently ignores values for variables that aren’t found from the template.
+
+Can you convert this to specification by example?

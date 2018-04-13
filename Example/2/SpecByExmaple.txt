@@ -1,0 +1,19 @@
+Scenario : Single variable template  
+GIVEN template “Hello, ${name}” with the value “Reader” for variable “name” 
+WHEN Evaluated 
+THEN results should be “Hello, Reader”. 
+
+Scenario : Multiple  variable template  
+GIVEN template “${greeting}, ${name}” with values “Hi” and “Reader”, respectively, 
+WHEN Evaluated 
+THEN results should be “Hi, Reader”.   
+
+Scenario : Template  variable value missing 
+GIVEN template “Hello, ${name}” with no value for variable “name” 
+WHEN Evaluated 
+THEN raises a IllegalStateException
+  
+Scenario : Template variable  not used in template evaluation 
+GIVEN Evaluating template “Hello, ${name}” with values “Hi” and “Reader” for variables “doesnotexist” and “name” respectively
+WHEN Evaluated 
+THEN results should “Hello, Reader”.                                       

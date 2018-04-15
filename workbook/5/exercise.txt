@@ -2,7 +2,7 @@ User story
 As a personal assistant to the CEO I want an email template functionality so that 
 I can send all sorts of mass/personalized emails with just a couple of mouse-clicks. 
 
-Can you divide the requirement to sub tasks (Don’t think about the UI related sub tasks)
+Can you divide the requirement to test  (Don’t think about the UI related sub tasks)
 
 
 1 eg The system replaces variable placeholders like ${firstname} and ${lastname} from a template with values provided at runtime.

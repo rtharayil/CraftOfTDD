@@ -1,4 +1,4 @@
-/*Kindly review the below code.*/
+/*Kindly review the below code. Can we test OrderProcessor independently? */
 
 public class OrderProcessor {
 	public void process(Order order) {

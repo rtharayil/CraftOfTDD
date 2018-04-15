@@ -1,8 +1,8 @@
 @Test
  	public void testAvailability() {
- 	   theTrialHolding.checkOut(TODAY);
+ 	   theTrialHolding.checkOut();
  	   assertFalse(theTrialHolding.isAvailable());
  	
- 	   theTrialHolding.checkIn(TOMORROW,   BranchTestData.ROCKRIMMON_BRANCH);
+ 	   theTrialHolding.checkIn();
  	   assertTrue(theTrialHolding.isAvailable());
  	}

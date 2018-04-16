@@ -1,16 +1,9 @@
 package com.workshop.ctdd.testfirst;
 
-public class TemplateEngineStub implements Template {	
-	
+public interface Template {
 
-	public String evaluate(String string) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	String evaluate(String string);
 
-	public void set(String string, String string2) {
-		// TODO Auto-generated method stub
-		
-	}
+	void set(String string, String string2);
 
 }

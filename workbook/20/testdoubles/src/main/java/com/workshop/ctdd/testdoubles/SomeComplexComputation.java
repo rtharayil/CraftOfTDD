@@ -16,10 +16,10 @@ public class SomeComplexComputation
 
 		if((seed % 2) == 0) {
 
-			result =algo.StratergyA_TimeConsumingComputation(seed-1);
+			result =algo.StrategyA_TimeConsumingComputation(seed-1);
 		}
 		else {
-			result =algo.StratergyB_TimeConsumingComputation(seed);
+			result =algo.StrategyB_TimeConsumingComputation(seed);
 		}
 
 		return result;

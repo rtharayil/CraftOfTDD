@@ -1,7 +1,7 @@
 package com.workshop.ctdd.prediction;
 
 import org.junit.Test;
-
+import static org.mockito.Mockito.*;
 import junit.framework.Assert;
 
 /**
